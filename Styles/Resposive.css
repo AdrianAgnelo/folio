@@ -1,0 +1,605 @@
+@media screen and (min-width:1980px){
+    
+}
+
+@media screen and (min-width:1281px) and (max-width:1980px){
+    .icon-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #img-profile {
+        width: 68rem;
+    }
+
+    .presentation {
+        top: 80%;
+    }
+
+    #mobile-img {
+        display: none;
+    }
+
+    #mobile-img {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width: 1280px){
+    .icon-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .icon-skills {
+        width: 12rem;
+        height: 8rem;
+    }
+
+    #img-profile {
+        width: 60rem;
+    }
+
+    .presentation {
+        top: 80%;
+    }
+
+    .text-about {
+        width: 34rem;
+        height: 18rem;
+        right: 180px;
+        top: 5px;
+        font-size: 0.52rem;
+    }
+
+    #text-info {
+        font-size: 0.7rem;
+    }
+
+    #mobile-img {
+        display: none;
+    }
+    
+
+}
+
+
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+    #btn-mobile{
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+
+    #icon-menu {
+        width: 3rem;
+    }
+
+    #menu {
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        top: 4.2rem;
+        right: 0;
+        width: 100%;
+        height: 0;   
+        transition: .6s;
+        background-color: #111B35;  
+        z-index: 10;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    
+    #menu li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5rem;
+    }
+
+    #nav.active #menu {
+        height: 100vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .presentation {
+        display: none;
+    }
+
+    .text-cell {
+        display: block;
+    }
+
+    .icon-container {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .icon-skills {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .faixa {
+        font-size: 0.5rem;
+        height: 40px;
+    }
+
+    .faixa2 {
+        font-size: 0.5rem;
+        height: 40px;
+    }
+
+    .container-about {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .text-about {
+        position: relative;
+        width: 27.5rem;
+        height: 15rem;
+        right: 145px;
+        top: 7px;
+        font-size: 0.4rem;
+    }
+
+    #text-info {
+        font-size: 0.7rem;
+    }
+
+    #img-profile {
+        position: absolute;
+        width: 48rem;
+    }
+
+    .about {
+        height: 35rem;
+    }
+
+    #mobile-img {
+        display: none;
+    }
+
+
+}
+
+
+@media (min-width:600px) and (max-width: 800px) {
+    #btn-mobile{
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+
+    #icon-menu {
+        width: 3rem;
+    }
+
+    #menu {
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        top: 4.2rem;
+        right: 0;
+        width: 100%;
+        height: 0;   
+        transition: .6s;
+        background-color: #111B35;  
+        z-index: 10;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    
+    #menu li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5rem;
+    }
+
+    #nav.active #menu {
+        height: 100vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    .presentation {
+        display: none;
+    }
+
+    .text-about {
+        position: relative;
+        width: 21rem;
+        height: 15rem;
+        right: 105px;
+        top: 32px;
+        font-size: 0.32rem;
+    }
+
+    .text-cell {
+        display: block;
+    }
+
+    #img-profile {
+        position: absolute;
+        width: 36rem;
+    }
+    .faixa {
+        font-size: 0.5rem;
+        height: 40px;
+    }
+
+    .faixa2 {
+        font-size: 0.5rem;
+        height: 40px;
+    }
+
+    .icon-container {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .icon-skills {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .skills {
+        height: 50rem;
+    }
+
+    #mobile-img {
+        display: none;
+    }
+
+    .about {
+        height: 33rem;
+    }
+}
+
+@media (min-width:480px) and (max-width: 599px) {
+    #btn-mobile{
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+
+    #icon-menu {
+        width: 3rem;
+    }
+
+    #menu {
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        top: 4.2rem;
+        right: 0;
+        width: 100%;
+        height: 0;   
+        transition: .6s;
+        background-color: #111B35;  
+        z-index: 10;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    
+    #menu li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5rem;
+    }
+
+    #nav.active #menu {
+        height: 100vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    .presentation {
+        display: none;
+    }
+
+    .text-cell {
+        display: block;
+    }
+
+
+    .text-about {
+        width: 22rem;
+        position: static;
+        font-size: 0.4rem;
+    }
+
+    #mobile-img {
+        width: 10rem;
+        display: block;
+    }
+
+    #img-profile {
+        display: none;
+    }
+
+
+    .container-about { 
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #img-profile {
+        display: none;
+    }
+
+
+    .container-about { 
+        color: white;
+    }
+
+    .icon-container {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .icon-skills {
+        width: 2rem;
+        height: 3rem;
+    }
+
+    .icon-skills h2 {
+        font-size: 0.6rem;
+    }
+
+    .icon-skills img {
+        width: 4rem;
+    }
+
+    .skills {
+        height: 50rem;
+    }
+
+    .faixa {
+        width: 99.9%;
+        gap: 3rem;
+        font-size: 0.5rem;
+    }
+
+    .faixa2 {
+        width: 99.9%;
+        gap: 3rem;
+        font-size: 0.5rem;
+    }
+
+    .container-text-projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #text-info {
+        color: #fff;
+        font-size: 0.5rem;
+    }
+
+    
+    .fliperama {
+        position: absolute;
+        width: 25rem;
+    }
+    
+    .carousel {
+        position: relative;
+        width: 15rem;
+        height: 11rem;
+        top: 12rem;
+        border: none;
+    }
+
+    .swiper-btn {
+        gap: 20rem;
+    }
+
+    .container-text-projects h2{
+        font-size: 1rem;
+    }
+
+    .container-text-projects p{
+        font-size: 0.8rem;
+    }
+
+    #text-info{
+        font-size: 0.5rem;
+    }
+}
+
+@media (min-width:360px) and (max-width: 479px) {
+
+    #btn-mobile{
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+
+    #icon-menu {
+        width: 3rem;
+    }
+
+    #menu {
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        top: 4.2rem;
+        right: 0;
+        width: 100%;
+        height: 0;   
+        transition: .6s;
+        background-color: #111B35;  
+        z-index: 10;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    
+    #menu li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5rem;
+    }
+
+    #nav.active #menu {
+        height: 100vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    .presentation {
+        display: none;
+    }
+
+    .text-cell {
+        display: block;
+    }
+
+
+    .text-about {
+        width: 22rem;
+        position: static;
+        font-size: 0.4rem;
+    }
+
+    #mobile-img {
+        width: 10rem;
+        display: block;
+    }
+
+    #img-profile {
+        display: none;
+    }
+
+
+    .container-about { 
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skills {
+        height: 55rem;
+    }
+
+    .icon-container {
+        padding: 4rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    .icon-skills {
+        width: 2rem;
+        height: 2rem;
+        padding: 5px;
+    }
+
+    .icon-skills h2 {
+        font-size: 0.6rem;
+    }
+
+    .icon-skills img {
+        width: 3rem;
+    }
+
+    .container-nav {
+        padding: 10px;
+    }
+
+    .logo-text h1{
+        font-size: 2.5rem;
+    }
+
+    .logo-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .faixa {
+        width: 99.9%;
+        gap: 2rem;
+        font-size: 0.5rem;
+    }
+
+    .faixa2 {
+        width: 99.9%;
+        gap: 2rem;
+        font-size: 0.5rem;
+    }
+
+    .container-text-projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #text-info {
+        color: #fff;
+        font-size: 0.5rem;
+    }
+
+    
+    .fliperama {
+        position: absolute;
+        width: 20rem;
+    }
+    
+    .carousel {
+        position: relative;
+        width: 12rem;
+        height: 11rem;
+        top: 12rem;
+        border: none;
+    }
+
+    .swiper-btn {
+        gap: 15rem;
+    }
+
+    .container-text-projects h2{
+        font-size: 1rem;
+    }
+
+    .container-text-projects p{
+        font-size: 0.8rem;
+    }
+
+    #text-info{
+        font-size: 0.5rem;
+    }
+
+
+}
