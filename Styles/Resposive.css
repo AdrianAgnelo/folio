@@ -1,10 +1,10 @@
-@media screen and (min-width:1282px) {
+@media screen and (min-width:1980px) {
     .container-img-m {
         display: none;
     }
 }
 
-@media screen and (max-width:1281px){
+@media screen and (min-width:1282px){
     .icon-container {
         grid-template-columns: repeat(4, 1fr);
     }
