@@ -1,8 +1,10 @@
-@media screen and (min-width:1980px){
-    
+@media screen and (min-width:1282px) {
+    .container-img-m {
+        display: none;
+    }
 }
 
-@media screen and (min-width:1281px) and (max-width:1980px){
+@media screen and (max-width:1281px){
     .icon-container {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -434,7 +436,7 @@
     }
 }
 
-@media (min-width:360px) and (max-width: 479px) {
+@media (min-width:320px) and (max-width: 479px) {
 
     #btn-mobile{
         display: block;
@@ -486,11 +488,13 @@
 
 
     .text-about {
-        width: 22rem;
+        width: 18rem;
         position: static;
         font-size: 0.4rem;
+        margin: 5px;
+        padding: 7px;
     }
-
+    
     #mobile-img {
         width: 10rem;
         display: block;
@@ -513,26 +517,27 @@
     }
 
     .icon-container {
-        padding: 4rem;
+        padding: 3rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 5rem;
+        gap: 4rem;
         margin-top: 2rem;
         margin-bottom: 5rem;
+        border: 1px solid red;
     }
     
     .icon-skills {
-        width: 2rem;
-        height: 2rem;
-        padding: 5px;
+        width: 1rem;
+        height: 1rem;
+        padding: 1px;
     }
 
     .icon-skills h2 {
-        font-size: 0.6rem;
+        font-size: 0.4rem;
     }
 
     .icon-skills img {
-        width: 3rem;
+        width: 2rem;
     }
 
     .container-nav {
@@ -574,19 +579,20 @@
     
     .fliperama {
         position: absolute;
-        width: 20rem;
+        width: 18rem;
+        height: 38rem;
     }
     
     .carousel {
         position: relative;
         width: 12rem;
         height: 11rem;
-        top: 12rem;
+        top: 8rem;
         border: none;
     }
 
     .swiper-btn {
-        gap: 15rem;
+        gap: 13rem;
     }
 
     .container-text-projects h2{
@@ -601,5 +607,8 @@
         font-size: 0.5rem;
     }
 
-
+    .fb {
+        display: none;
+    }
+    
 }
